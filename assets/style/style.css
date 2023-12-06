@@ -1,0 +1,198 @@
+* {
+ margin: 0;
+ padding: 0;
+ font-family: "Poppins";
+ box-sizing: border-box;
+ scroll-behavior: smooth;
+}
+
+@font-face {
+ font-family: "Himagsikan";
+ src: url("../fonts/himagsikan.otf") format("truetype");
+}
+
+main {
+ width: 100%;
+ height: 2600px;
+ background-image: linear-gradient(#000000 7%, #06043b 50%);
+}
+
+/* Landing Page */
+
+.landing-page {
+ margin-top: 150px;
+ display: grid;
+ place-items: center;
+}
+
+.landing-page h1 {
+ font-size: 5em;
+ font-family: "Himagsikan";
+ color: #fff;
+}
+
+.landing-page h4 {
+ color: #8685a0;
+ font-family: "Montserrat";
+ font-style: normal;
+ font-weight: 400;
+ font-size: 20px;
+ line-height: 24px;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+}
+
+.landing-page h3 {
+ text-transform: uppercase;
+ font-family: "Montserrat";
+ font-style: normal;
+ font-weight: 900;
+ font-size: 32px;
+ line-height: 39px;
+ color: #fff;
+}
+
+.landing-page h3 span.care {
+ font-family: "Montserrat";
+ font-style: normal;
+ font-weight: 400;
+ color: #8685a0;
+}
+
+.main-btn {
+ margin-top: 20px;
+}
+
+/* card big */
+
+.card-big {
+ background-color: rgba(0, 0, 0, 0.3);
+ color: #fff;
+ text-align: center;
+ margin-inline: auto;
+ width: 80%;
+ margin-top: 280px;
+ border-radius: 20px;
+ padding: 47px 0px;
+}
+
+.card-big h2 {
+ text-transform: uppercase;
+ font-family: "Montserrat";
+ font-style: normal;
+ font-weight: 700;
+ line-height: 39px;
+}
+
+.card-big h4 {
+ color: #8685a0;
+ font-family: "Montserrat";
+ font-style: normal;
+ font-weight: 400;
+ line-height: 24px;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+}
+
+/* Small cards */
+
+.cards {
+ width: 80%;
+ margin: 80px auto;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ gap: 45px;
+}
+
+.card {
+ width: 45%;
+ background-color: rgba(0, 0, 0, 0.3);
+ padding: 15px;
+ border-radius: 20px;
+}
+
+.card h2 {
+ color: #fff;
+ text-transform: uppercase;
+ font-family: "Montserrat";
+ font-style: normal;
+ font-weight: 700;
+ font-size: 1.8em;
+ line-height: 44px;
+}
+
+.card p {
+ color: #8685a0;
+ font-family: "Montserrat";
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 20px;
+}
+
+/* Person */
+
+.preview {
+ background-color: rgba(0, 0, 0, 0.3);
+ padding: 25px;
+ width: 80%;
+ margin: 80px auto;
+ border-radius: 20px;
+}
+
+.person {
+ background-color: transparent;
+ width: 100%;
+ display: flex;
+}
+
+.person img {
+ filter: drop-shadow(0px 0px 11px rgba(5, 238, 255, 0.2));
+ border-radius: 50%;
+}
+
+.person .comment {
+ color: #fff;
+ padding-left: 20px;
+}
+.person .comment p {
+ color: #8685a0;
+}
+
+.right {
+ width: 100%;
+ justify-content: end;
+ text-align: end;
+}
+.person.right .comment {
+ padding-right: 20px;
+}
+
+.final-btn {
+ text-transform: uppercase;
+ text-align: center;
+ margin: 100px auto;
+ width: 80%;
+}
+
+.final-btn button {
+ background: #05eeff;
+ border: 1px solid #03fcfc;
+ border-radius: 45px;
+ cursor: pointer;
+ padding: 15px 35px;
+ border-radius: 3em;
+ border: none;
+ filter: drop-shadow(0px 0px 7px #05eeff);
+
+ font-size: 1.3em;
+ font-family: "Montserrat";
+ font-style: normal;
+ font-weight: 700;
+ line-height: 2em;
+ text-align: center;
+ letter-spacing: 0.05em;
+ text-transform: uppercase;
+}
